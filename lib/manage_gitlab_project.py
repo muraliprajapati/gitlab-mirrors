@@ -100,7 +100,7 @@ def createproject(pname):
     'wiki_enabled': options.wiki,
     'snippets_enabled': options.snippets,
     'public': options.public,
-    'lfs_enabled':Flase,
+    'lfs_enabled': False,
     'namespace_id': find_group(name=gitlab_namespace).id,
   }
   #make all project options lowercase boolean strings i.e. true instead of True
